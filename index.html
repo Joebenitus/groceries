@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <title>{Title here}</title>
+  <title>Shopping List</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
 </head>
 <body>
-  
+  <div class="container">
+    <h2>Grocery List</h2>
+    <h4>Enter 4 things you need from the grocery store: </h4>
+    <form id="items">
+      <label for="item1">Item 1</label>
+      <input id="item1" type="text">
+      <br>
+      <label for="item2">Item 2</label>
+      <input id="item2" type="text">
+      <br>
+      <label for="item3">Item 3</label>
+      <input id="item3" type="text">
+      <br>
+      <label for="item4">Item 4</label>
+      <input id="item4" type="text">
+
+      <button type="submit" class="btn btn-primary">Calculate</button>
+
+    </form>
+    <div class="output">
+      <ul id="grocery-list">
+        
+      </ul>
+    </div>
+  </div>
 </body>
 </html>
